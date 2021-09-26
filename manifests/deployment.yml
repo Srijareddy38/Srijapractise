@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: srijapractise 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: srijapractise
+  template:
+    metadata:
+      labels:
+        app: srijapractise 
+    spec:
+      containers:
+        - name: srijapractise 
+          image: srijafirst.azurecr.io/srijapractise
+          ports:
+          - containerPort: 8080
