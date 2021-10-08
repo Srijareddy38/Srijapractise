@@ -6,7 +6,7 @@ trigger:
 - main
 
 pool:
-  name: Srija3
+  name: secureagent
 
 
 variables:
