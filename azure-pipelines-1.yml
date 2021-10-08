@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: secureagent
+  name: secureagent
 
 steps:
 - script: echo Hello, world!
